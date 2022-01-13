@@ -1,0 +1,15 @@
+﻿  WordleSolver.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\numeric(35,26): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Programming Projects\Wordle\Wordle\WordleSolver.cpp(92): message : see reference to function template instantiation '_Ty std::accumulate<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,int,WordleSolver::FrequencyScore::<lambda_2ca30f44a721537f533f0831c9eb2a1a>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _Elem=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=WordleSolver::FrequencyScore::<lambda_2ca30f44a721537f533f0831c9eb2a1a>
+          ]
+  Wordle.vcxproj -> C:\Programming Projects\Wordle\Debug\Wordle.exe
